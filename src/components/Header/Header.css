@@ -1,0 +1,132 @@
+.header {
+  background-color: var(--primary-green);
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: var(--shadow);
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-white);
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  align-items: center;
+}
+
+.nav-link {
+  color: var(--text-white);
+  text-decoration: none;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: opacity 0.3s ease;
+}
+
+.nav-link:hover {
+  opacity: 0.8;
+}
+
+.dropdown-arrow {
+  font-size: 0.8rem;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+}
+
+.sign-up-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--text-white);
+  color: var(--primary-green);
+  border: 2px solid var(--text-white);
+}
+
+.sign-up-btn:hover {
+  background-color: transparent;
+  color: var(--text-white);
+}
+
+.sign-up-icon {
+  font-size: 1.2rem;
+}
+
+.mobile-menu-toggle {
+  display: none;
+  flex-direction: column;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.mobile-menu-toggle span {
+  width: 25px;
+  height: 3px;
+  background-color: var(--text-white);
+  margin: 3px 0;
+  transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--primary-green);
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+  }
+
+  .nav-open {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .mobile-menu-toggle {
+    display: flex;
+  }
+
+  .header-actions {
+    display: none;
+  }
+}

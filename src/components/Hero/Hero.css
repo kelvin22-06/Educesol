@@ -1,0 +1,116 @@
+.hero {
+  background-color: var(--background-light);
+  padding: 120px 0 80px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--primary-dark);
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  font-size: 1.1rem;
+  color: var(--text-light);
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.hero-image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-main-image {
+  max-width: 100%;
+  height: auto;
+  z-index: 2;
+  position: relative;
+}
+
+.hero-graphics {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.network-node {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: var(--text-white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow);
+}
+
+.node-1 {
+  top: 20%;
+  right: 10%;
+}
+
+.node-2 {
+  bottom: 30%;
+  left: 15%;
+}
+
+.network-lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(45deg, transparent 40%, rgba(76, 175, 80, 0.2) 50%, transparent 60%),
+    linear-gradient(-45deg, transparent 40%, rgba(76, 175, 80, 0.2) 50%, transparent 60%);
+  background-size: 100px 100px;
+  opacity: 0.3;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 100px 0 60px;
+  }
+
+  .hero-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .hero-title {
+    font-size: 2.2rem;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .hero-image {
+    order: -1;
+  }
+}

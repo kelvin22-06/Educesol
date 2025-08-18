@@ -1,0 +1,75 @@
+import type React from "react"
+import "./Reviews.css"
+
+interface Review {
+  name: string
+  website: string
+  review: string
+  avatar: string
+}
+
+const Reviews: React.FC = () => {
+  const reviews: Review[] = [
+    {
+      name: "John DOE",
+      website: ".com",
+      review: "Enrolling in Educesol's courses has been a game-changer for me.",
+      avatar: "/pic14.png?height=80&width=80",
+    },
+    {
+      name: "Jenny Anderson",
+      website: "photolander.com",
+      review: "I'm more knowledgeable, and equipped to tackle the challenges in my field.",
+      avatar: "/pic15.png?height=80&width=80",
+    },
+    {
+      name: "Mark BOBS",
+      website: "futsplays.com",
+      review: "I'm now excelling in my studies and feeling more empowered than ever before.",
+      avatar: "/pic16.png?height=80&width=80",
+    },
+  ]
+
+  return (
+    <section className="reviews section">
+      <div className="container">
+        <h2 className="section-title" style={{ color: "var(--primary-green)" }}>
+          REVIEWS
+        </h2>
+        <p className="section-subtitle">
+          Reviews and feedback from students and educators, helps to assess the effectiveness of courses and improve the
+          overall educational experience.
+        </p>
+
+        <div className="reviews-grid">
+          {reviews.map((review, index) => (
+            <div key={index} className="review-card">
+              <div className="reviewer-info">
+                <img
+                  src={review.avatar || "/placeholder.svg"}
+                  alt={`${review.name} avatar`}
+                  className="reviewer-avatar"
+                />
+                <div className="reviewer-details">
+                  <h3 className="reviewer-name">{review.name}</h3>
+                  <p className="reviewer-website">{review.website}</p>
+                </div>
+              </div>
+              <p className="review-text">"{review.review}"</p>
+            </div>
+          ))}
+        </div>
+
+        <div className="reviews-footer">
+          <p className="reviews-footer-text">
+            Underpinning Educesol's success is a relentless commitment to innovation and a deep understanding of the
+            evolving needs of modern learners. By continuously investing in research, technology, and pedagogical best
+            practices, Educesol ensures that its offerings
+          </p>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export default Reviews

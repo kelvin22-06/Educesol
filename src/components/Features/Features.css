@@ -1,0 +1,497 @@
+/* Features.css */
+:root {
+  --green-color: #00C853;
+  --purple-color: #6200EA;
+  --blue-color: #2962FF;
+  --text-color: #333;
+  --text-light: #666;
+  --background-color: #ffffff;
+  --light-gray: #f5f5f5;
+  --medium-gray: #e0e0e0;
+  --dark-gray: #757575;
+  --card-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  --border-radius: 8px;
+  --container-width: 1200px;
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.features-page {
+  font-family: var(--font-family);
+  color: var(--text-color);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Text Colors */
+.text-green {
+  color: var(--green-color);
+}
+
+.text-purple {
+  color: var(--purple-color);
+}
+
+.text-blue {
+  color: var(--blue-color);
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: var(--background-color);
+  padding: 60px 0 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.hero-content {
+  text-align: center;
+  max-width: 800px;
+  margin-bottom: 40px;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  color: var(--text-light);
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.sign-up-button {
+  background-color: #e6ffef;
+  color: var(--green-color);
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.sign-up-button:hover {
+  background-color: #00B046;
+  transform: translateY(-2px);
+}
+
+.arrow-icon {
+  margin-right: 8px;
+}
+
+.hero-image {
+  max-width: 400px;
+  margin-bottom: 30px;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+}
+
+.partner-logos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.partner-logos img {
+  height: 40px;
+  width: auto;
+  opacity: 0.8;
+}
+
+/* Feature Sections */
+.feature-section {
+  padding: 60px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.feature-section .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.feature-image {
+  flex: 1;
+  max-width: 500px;
+}
+
+.feature-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: var(--card-shadow);
+}
+
+.feature-content {
+  flex: 1;
+  max-width: 500px;
+}
+
+.feature-content h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+.feature-content p {
+  font-size: 1.1rem;
+  color: var(--text-light);
+  margin-bottom: 25px;
+}
+
+.learn-more {
+  color: var(--green-color);
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.learn-more:hover {
+  color: #00B046;
+}
+
+.learn-more .arrow {
+  margin-left: 5px;
+  transition: transform 0.3s ease;
+}
+
+.learn-more:hover .arrow {
+  transform: translateX(5px);
+}
+
+/* Admin Controls Section */
+.admin-controls {
+  background: white;
+}
+
+/* Fees Payment Section */
+.fees-payment {
+  background: white;
+}
+
+.fees-payment .feature-content {
+  color: var(--text-color);
+}
+
+.fees-payment h2 {
+  color: var(--text-color);
+}
+
+.fees-payment p {
+  color: var(--text-light);
+}
+
+/* Schedules Access Section */
+.schedules-access {
+  background: white;
+}
+
+.schedules-access .feature-content {
+  color: var(--text-color);
+}
+
+.schedules-access h2 {
+  color: var(--text-color);
+}
+
+.schedules-access p {
+  color: var(--text-light);
+}
+
+/* Multi-platform Section */
+.multi-platform {
+  background: white;
+}
+
+.multi-platform .feature-content {
+  color: var(--text-color);
+}
+
+.multi-platform h2 {
+  color: var(--text-color);
+}
+
+.multi-platform p {
+  color: var(--text-light);
+}
+
+/* Reviews Section */
+.reviews-section {
+  padding: 60px 0;
+  background-color: var(--light-gray);
+}
+
+.reviews-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.reviews-count {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.count-number {
+  color: var(--blue-color);
+}
+
+.reviews-description {
+  font-size: 1rem;
+  color: var(--text-light);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.testimonial-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: var(--card-shadow);
+}
+
+.testimonial-text {
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--text-color);
+  margin-bottom: 20px;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+}
+
+.author-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--medium-gray);
+  margin-right: 15px;
+}
+
+.author-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.mission-statement {
+  font-size: 0.9rem;
+  color: var(--text-light);
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  font-style: italic;
+}
+
+/* Download Section */
+.download-section {
+  padding: 60px 0;
+  background-color: #1A237E;
+  color: white;
+}
+
+.download-section .container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.download-image {
+  flex: 1;
+  max-width: 300px;
+}
+
+.download-image img {
+  width: 100%;
+  height: auto;
+}
+
+.download-content {
+  flex: 2;
+}
+
+.download-content h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: var(--green-color);
+}
+
+.download-steps {
+  margin-bottom: 30px;
+}
+
+.step {
+  margin-bottom: 20px;
+}
+
+.step h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.step p {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.download-buttons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.learn-more-btn {
+  background-color: var(--green-color);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.learn-more-btn:hover {
+  background-color: #00B046;
+}
+
+.install-now-btn {
+  background-color: #3D5AFE;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.install-now-btn:hover {
+  background-color: #304FFE;
+}
+
+.app-store-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.store-badge img {
+  height: 40px;
+  width: auto;
+}
+
+/* Footer */
+.features-footer {
+  background-color: #303F9F;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  .feature-section .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .feature-content {
+    order: 1;
+  }
+  
+  .feature-image {
+    order: 2;
+  }
+  
+  .left-content, .right-content {
+    max-width: 100%;
+  }
+  
+  .testimonials-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  
+  .download-section .container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+  
+  .partner-logos {
+    flex-wrap: wrap;
+  }
+  
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+  
+  .hero-content p {
+    font-size: 1rem;
+  }
+  
+  .feature-content h2 {
+    font-size: 1.5rem;
+  }
+  
+  .feature-content p {
+    font-size: 1rem;
+  }
+  
+  .download-content h2 {
+    font-size: 1.5rem;
+  }
+  
+  .download-buttons {
+    flex-direction: column;
+  }
+}
