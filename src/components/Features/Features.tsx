@@ -215,11 +215,11 @@ const Features: React.FC = () => {
         </div>
       </section>
 
-      <footer className="features-footer">
+      {/* <footer className="features-footer">
         <div className="container">
           <p>&copy; {new Date().getFullYear()} Educesol. All rights reserved.</p>
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 };

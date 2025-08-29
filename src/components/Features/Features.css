@@ -1,8 +1,8 @@
 /* Features.css */
 :root {
-  --green-color: #00C853;
+  --green-color: #6bbe44;
   --purple-color: #6200EA;
-  --blue-color: #2962FF;
+  --blue-color: #007985;
   --text-color: #333;
   --text-light: #666;
   --background-color: #ffffff;
@@ -324,7 +324,7 @@
 /* Download Section */
 .download-section {
   padding: 60px 0;
-  background-color: #1A237E;
+  background-color: #0079a5;
   color: white;
 }
 
@@ -391,11 +391,11 @@
 }
 
 .learn-more-btn:hover {
-  background-color: #00B046;
+  background-color: #6bbe44;
 }
 
 .install-now-btn {
-  background-color: #3D5AFE;
+  background-color: #0079a5;
   color: white;
   padding: 10px 20px;
   border-radius: 4px;

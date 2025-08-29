@@ -47,7 +47,7 @@
   color: #1f2937;
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid #10b981;
+  border-bottom: 2px solid #6bbe44;
   display: inline-block;
 }
 
@@ -113,7 +113,7 @@
 
 .submit-button {
   width: 100%;
-  background-color: #10b981;
+  background-color: #6bbe44;
   color: white;
   font-weight: bold;
   padding: 0.75rem 1.5rem;
@@ -125,7 +125,7 @@
 }
 
 .submit-button:hover {
-  background-color: #059669;
+  background-color: #6bbe44;
   transform: scale(1.05);
 }
 
@@ -146,7 +146,7 @@
 .contact-icon {
   height: 1.5rem;
   width: 1.5rem;
-  color: #3b82f6;
+  color: #0079a5;
   margin-right: 0.75rem;
   flex-shrink: 0;
 }

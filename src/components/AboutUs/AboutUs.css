@@ -99,11 +99,11 @@ img {
 }
 
 .front {
-	background: #1a237e;
+	background: #0079a5;
 }
 
 .back {
-	background: #2ecc71;
+	background: #6bbe44;
 	transform: rotateY(180deg);
 }
 

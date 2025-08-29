@@ -17,7 +17,7 @@
 .faq-question {
   width: 100%;
   padding: 25px 30px;
-  background-color: #b8a9ff;
+  background-color: #0079a5;
   border: none;
   text-align: left;
   font-size: 1.1rem;
@@ -31,11 +31,11 @@
 }
 
 .faq-question:hover {
-  background-color: #a89aff;
+  background-color: #0079a5;
 }
 
 .faq-question.active {
-  background-color: #9b8cff;
+  background-color: #0079a5;
 }
 
 .faq-icon {
