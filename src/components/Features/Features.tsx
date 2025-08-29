@@ -86,9 +86,9 @@ const Features: React.FC = () => {
         <div className="container">
           <div className="hero-content">
             <h1>
-              <span className="text-green">Unlock </span><span className="text-purple">Your </span><span className="text-green">Learning </span><span className="text-purple">Potential</span><br/>
-              <span className="text-green">and </span><span className="text-purple">Explore </span><span className="text-green">the </span><span className="text-purple">Features </span><span className="text-green">Of</span><br/>
-              <span className="text-purple">Educesol</span>
+              <span className="text-green">Everything </span><span className="text-purple">You </span><span className="text-green"> <br /> Need </span><span className="text-purple">To</span><br/>
+              <span className="text-green">Run </span><span className="text-purple">Your </span><span className="text-green">School </span><span className="text-purple">Efficiently </span><span className="text-green"></span><br/>
+              <span className="text-purple"> </span>
             </h1>
             <p style={{ textAlign: 'center', maxWidth: '600px', margin: '0 auto 30px' }}>Discover and Harness your unique strengths and abilities to achieve personal growth and success.</p>
             <div style={{ display: 'flex', justifyContent: 'center' }}>
@@ -108,7 +108,7 @@ const Features: React.FC = () => {
           </div>
           <div className="feature-content right-content">
             <h2>Full Admin Controls</h2>
-            <p>We empower administrators with full control over the platform to ensure a smooth and efficient educational experience.</p>
+            <p>Manage students, staff, classes, and operations centrally.</p>
             <a href="/admin-controls" className="learn-more">Learn More <span className="arrow">→</span></a>
           </div>
         </div>
@@ -119,7 +119,7 @@ const Features: React.FC = () => {
         <div className="container">
           <div className="feature-content left-content">
             <h2>Easy Fees Payment</h2>
-            <p>At Educesol, we understand that managing educational expenses should be as seamless as possible. That's why we offer an easy and flexible fee payment system.</p>
+            <p>Secure, automated payment collection and receipts.</p>
             <a href="/fees-payment" className="learn-more">Learn More <span className="arrow">→</span></a>
           </div>
           <div className="feature-image">

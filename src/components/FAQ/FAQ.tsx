@@ -14,20 +14,28 @@ const FAQ: React.FC = () => {
 
   const faqItems: FAQItem[] = [
     {
-      question: "WHY EDUCESOL?",
+      question: "WHAT IS EDUCESOL BASIC?",
       answer:
-        "Educesol is an exceptional educational institution fostering growth and innovation. We provide cutting-edge technology with engaging, multimedia-rich content and personalized learning paths tailored to each user's unique needs and preferences.",
+        "Educesol Basic is a mobile-first school management solution that helps schools digitise administration, automate payments, and improve communication among teachers, parents, and administrators.",
     },
     {
-      question: "WHAT IS EDUCESOL?",
+      question: "WHO CAN USE EDUCESOL?",
       answer:
-        "Educesol is a comprehensive school management system that seamlessly integrates modern technology with educational excellence. Our platform offers result checking, easy fee payments, quiz and assignments, and much more to enhance the learning experience.",
+        "The platform is designed for schools of all sizes—primary, secondary, and tertiary institutions—whether private or public.",
     },
     {
-      question: "WHAT IS EDUCESOL FEATURES?",
+      question: "DOES EDUCESOL WORK WITHOUT STRONG INTERNENT?",
       answer:
-        "Educesol features include Result Checker for tracking performance, Easy Fees Payment system, Quiz & Assignments platform, Activity Management, Payment Processing, Real-time reporting, and cross-device compatibility for seamless learning anywhere.",
+        "Yes. Educesol Basic is optimised to work in areas with limited connectivity, making it ideal for schools in developing regions.",
     },
+    {
+      question: "HOW SECURE IS MY SCHOOL'S DATA?",
+      answer: "All records are stored on secure cloud servers with encryption and role-based access controls to ensure confidentiality."
+    },
+    {
+      question: "HOW CAN I GET STARTED?",
+      answer: "Simply click Get Started and fill out our contact form. A member of our team will guide you through onboarding."
+    }
   ]
 
   const toggleFAQ = (index: number) => {

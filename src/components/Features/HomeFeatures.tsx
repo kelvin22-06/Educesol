@@ -11,21 +11,21 @@ const HomeFeatures: React.FC = () => {
   const features: Feature[] = [
     {
       icon: "/pic11.png?height=80&width=80",
-      title: "Result Checker",
+      title: "Full Admin Controls",
       description:
-        "Unlock your potential with our result checker. Achieving your goals starts with understanding your progress. Our result checker empowers you to track your performance and identify areas for improvement.",
-    },
-    {
-      icon: "/pic12.png?height=80&width=80",
-      title: "Easy Fees Payment",
-      description:
-        "Simplify Your Payments with Our Easy Fee Solution. Dealing with fees and payments can be a hassle, but it doesn't have to be! Our easy fee payment system takes the stress out of managing your financial obligations.",
+        "Manage students, staff, classes, and operations centrally.",
     },
     {
       icon: "/pic13.png?height=80&width=80",
-      title: "Quiz & Assignments",
+      title: "Attendance & Records",
       description:
-        "Elevate Your Learning with Our Comprehensive Quiz and Assignment Platform. Mastering new concepts and skills requires consistent practice and assessment. Our cutting-edge quiz and assignment.",
+        "Real-time tracking and automated academic reporting.",
+    },
+    {
+      icon: "/pic12.png?height=80&width=80",
+      title: "Finance & Fees",
+      description:
+        "Secure, automated payment collection and receipts.",
     },
   ]
 
@@ -35,7 +35,7 @@ const HomeFeatures: React.FC = () => {
         <h2 className="section-title" style={{ color: "var(--primary-green)" }}>
           Our Features
         </h2>
-        <p className="section-subtitle">Simply The Most Feature Rich School Management System</p>
+        <p className="section-subtitle">Everything You Need to Run Your School Efficiently</p>
 
         <div className="features-grid">
           {features.map((feature, index) => (

@@ -11,12 +11,10 @@ const WhoAreWe: React.FC = () => {
           </div>
 
           <div className="who-are-we-text">
-            <h2 className="who-are-we-title">WHO ARE WE</h2>
+            <h2 className="who-are-we-title">WHO WE ARE</h2>
             <p className="who-are-we-description">
-              Educesol's commitment to excellence is evident in its state-of-the-art learning management system, which
-              seamlessly integrates cutting-edge technology with engaging, multimedia-rich content. Our intuitive
-              interface and personalized learning paths ensure that each user's educational journey is tailored to their
-              unique needs and preferences.
+              Educesol Basic is a groundbreaking school management solution developed by MetroBlue Tech System Ltd. We are committed to transforming the educational landscape in Nigeria and across Africa by making school operations simple, transparent, and affordable.
+
             </p>
             <button className="btn btn-primary">Learn More</button>
           </div>

@@ -8,14 +8,14 @@ const Hero: React.FC = () => {
         <div className="hero-content">
           <div className="hero-text">
             <h1 className="hero-title">
-              MAKE YOUR NEXT
+             Shaping the Future of
               <br />
-              EDUCATION DECISION
+             Learning with Smart School Management
             </h1>
             <p className="hero-subtitle">
-              Discover the next step of quality education
+              Educesol Basic is Nigeria’s first mobile-first school management solution — designed to reduce costs,
               <br />
-              with improved means of learning
+             eliminate manual errors, and connect parents, teachers, and administrators in real time.
             </p>
             <div className="hero-buttons">
               <button className="btn btn-secondary">Register Now</button>

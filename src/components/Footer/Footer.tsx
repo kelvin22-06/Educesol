@@ -38,15 +38,16 @@ const Footer: React.FC = () => {
           </div>
           <div className="contact-item">
             <span className="contact-icon">✉️</span>
-            <span>info@yoursite.com</span>
+            <span>contact@metrobluets.com</span>
           </div>
           <div className="contact-item">
             <span className="contact-icon">📞</span>
-            <span>+90 123 45 68</span>
+            <span>+234 816 252 4860 | +234 907 912 5273</span>
           </div>
           <div className="contact-item">
             <span className="contact-icon">📍</span>
-            <span>INC 22 Elizabeth Str, Melbourne, Victoria 8777.</span>
+            <span>MetroBlue Tech System Ltd (Official developer of Educesol)
+322 Road, Opposite H-Close, Festac Town, Lagos, Nigeria</span>
           </div>
         </div>,
       ],
@@ -74,7 +75,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; 2025 Educesol. All rights reserved.</p>
+          <p>&copy; 2025 MetroBlue Tech System Ltd. Educesol Basic. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -11,21 +11,21 @@ interface Review {
 const Reviews: React.FC = () => {
   const reviews: Review[] = [
     {
-      name: "John DOE",
-      website: ".com",
-      review: "Enrolling in Educesol's courses has been a game-changer for me.",
+      name: "Mrs. Adebayo School Administrator, Lagos",
+      website: "",
+      review: "The fee collection system is a game-changer. Parents can now pay easily, and we can track everything instantly.",
       avatar: "/pic14.png?height=80&width=80",
     },
     {
-      name: "Jenny Anderson",
-      website: "photolander.com",
-      review: "I'm more knowledgeable, and equipped to tackle the challenges in my field.",
+      name: "Mrs. Okonkwo, Proprietor, Enugu",
+      website: "",
+      review: "With Educesol, I always know how my children are performing. The app keeps me informed in real time.",
       avatar: "/pic15.png?height=80&width=80",
     },
     {
-      name: "Mark BOBS",
-      website: "futsplays.com",
-      review: "I'm now excelling in my studies and feeling more empowered than ever before.",
+      name: "Mr. Alvan Ikoku, Proprietor, Abuja",
+      website: "",
+      review: "My students are now excelling in their studies and feeling more empowered than ever before.",
       avatar: "/pic16.png?height=80&width=80",
     },
   ]

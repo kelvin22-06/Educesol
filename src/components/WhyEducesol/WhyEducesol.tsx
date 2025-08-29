@@ -21,23 +21,23 @@ const WhyEducesol: React.FC = () => {
     },
     {
       icon: "/pic19.png?height=80&width=80",
-      title: "Home",
-      description: "Embrace the freedom and flexibility of learning from home.",
+      title: "Mobile-First Advantage",
+      description: " Works seamlessly even in areas with limited connectivity.",
     },
     {
       icon: "/pic19.png?height=50&width=50",
-      title: "Real Time Saver",
-      description: "Maximize Your Productivity with Our Real-Time Saver Platform",
+      title: "All-in-One Platform",
+      description: "Payments, academics, and communication in one place.",
     },
     {
       icon: "/pic19.png?height=50&width=50",
-      title: "Powerful Options",
-      description: "Unlock Your Potential with Our Powerful Options Platform",
+      title: "Affordable & Scalable",
+      description: "Designed for schools of all sizes at a cost-effective price.",
     },
     {
       icon: "/pic19.png?height=50&width=50",
-      title: "Easily Customisable",
-      description: "Unleash Your Creativity with Our Easily Customisable Platform",
+      title: "Built for Africa",
+      description: "Tailored to the real challenges of Nigerian and African schools.",
     },
   ]
 
